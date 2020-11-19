@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+}
+
+main{
+    width: 800px;
+}
+
+.header-pdf{
+    position: relative;
+    width: 750px;
+    overflow: hidden;
+    height: 70px;
+}
+
+.logo{
+    width: 206px;
+    height: 70px;
+    margin-top: 25px;
+}
+
+.info-vete{
+    width: 400px;
+    position: absolute;
+    margin: -100px 0 0 275px;
+}
+
+.separador-pdf{
+    width: 750px;
+    height: 5px;
+    border-bottom: 0.1px solid #0950BB;
+    margin: 0 auto;
+}
+
+.card-pdf{
+    width: 700px;
+    margin: 0 auto;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+.card-pdf h3{
+    padding-top: 13px;
+}
+
+.card-pdf .info{
+    position: relative;
+}
+
+.card-pdf .info .rigth-datos{
+    position: absolute;
+    margin-left: 275px;
+    margin-top:-140px;
+}
+
+.card-pdf .resultados{
+    position: relative;
+}
+
+.card-pdf .resultados .rigth-datos{
+    position: absolute;
+    margin-left: 275px;
+    margin-top:-180px;   
+}
+
+.card-pdf .descripcion-problema{
+    margin-left: 37px;
+}
+
+.focus{
+    font-size: 18px;
+}
+
+.tutilos{
+    font-size: 20px;
+}

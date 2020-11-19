@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.background_fondo {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../recursos/landing/dogedit.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 90vh;
+}
+
+/* Inicio encabezado y buscador boton agregar clientes */
+.input-boton__clientes {
+	display: flex;
+	width: 900px;
+	justify-content: flex-end;
+	margin-top: 0.62vw;
+	margin-bottom: 0.62vw;
+	padding-right: 8.45vw;
+}
+
+.encabezado-listado {
+	width: 75vw;
+	height: 2.6vw;
+	background-color: #3d8aff;
+	border-radius: 0.39vw;
+	display: flex;
+	align-items: center;
+	margin-top: 1vw;
+}
+
+.encabezado-listado p {
+	font-size: 1.87vw;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	margin-left: 3.28vw;
+}
+
+.boton-add-cliente {
+	font-family: 'Ubuntu', sans-serif;
+	width: 9.78vw;
+	height: 1.87vw;
+	background-color: #3d8aff;
+	border-radius: 0.39vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 1.25vw;
+}
+.boton-add-cliente:hover {
+	background-color: #0950bb;
+}
+.boton-add-cliente a {
+	font-size: 1.09vw;
+	text-decoration: none;
+	color: white;
+}
+
+.input-search input {
+	width: 19.56vw;
+	height: 1.87vw;
+	border-radius: 0.39vw;
+}
+
+.input-search img {
+	position: absolute;
+	left: 0;
+	top: 0.39vw;
+	width: 1.25vw;
+	height: 1.25vw;
+	margin-left: 0.78vw;
+	opacity: 0.4;
+}
+.input-search input[type='text'] {
+	padding-left: 2.34vw;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.25vw;
+	border: solid 0.078vw #8b8f96;
+	box-sizing: border-box;
+	outline: none;
+}
+.input-search {
+	position: relative;
+}
+.input-search input[type='text']:focus {
+	color: dodgerblue;
+	box-shadow: 0 0 0.234vw 0 dodgerblue;
+	color: black;
+}
+
+/* Fin estilos */
+
+/* Inicio estilos tabla */
+.table {
+	text-align: left;
+	border-collapse: collapse;
+	background-color: white;
+	overflow-y: scroll;
+}
+.tabla{
+	height: 500px;
+	overflow-y: scroll;
+}
+
+th,
+tr {
+	padding: 0.78vw;
+}
+thead {
+	border-bottom: solid 0.15vw #3d8aff;
+	border-top: solid 0.0782vw #8b8f96;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.01vw;
+	color: #8b8f96;
+}
+thead p {
+	font-weight: 300;
+	line-height: 1.56vw;
+}
+tbody tr {
+	border-bottom: solid 0.0782vw #8b8f96;
+}
+tbody p {
+	font-family: 'Ubuntu', sans-serif;
+	color: #60636a;
+	font-weight: 400;
+	font-size: 1.56vw;
+}
+.boton-detalle {
+	display: flex;
+	background-color: #2bbe5d;
+	color: white;
+	width: 10.5vw;
+	height: 1.87vw;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.09vw;
+	text-decoration: none;
+	font-weight: 400;
+	border-radius: 0.39vw;
+	justify-content: center;
+	align-items: center;
+}
+.boton-detalle:hover {
+	background-color: #087c30;
+}
+.id-cliente {
+	width: 15%;
+}
+.cc-cliente {
+	width: 20%;
+}
+.nombre-cliente {
+	width: 30%;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Inicio encabezado y buscador boton agregar clientes */
+.input-boton__clientes {
+	display: flex;
+	width: 900px;
+	justify-content: flex-end;
+	z-index: 3;
+	margin-top: 0.62vw;
+	margin-bottom: 0.62vw;
+	padding-right: 8.45vw;
+}
+
+.encabezado-listado {
+	width: 75vw;
+	height: 2.6vw;
+	background-color: #3d8aff;
+	z-index: 4;
+	border-radius: 0.39vw;
+	display: flex;
+	align-items: center;
+	margin-top: 1vw;
+}
+
+.encabezado-listado p {
+	font-size: 1.87vw;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	margin-left: 3.28vw;
+}
+
+.boton-add-cliente {
+	font-family: 'Ubuntu', sans-serif;
+	width: 9.78vw;
+	height: 1.87vw;
+	background-color: #3d8aff;
+	border-radius: 0.39vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 1.25vw;
+}
+.boton-add-cliente:hover {
+	background-color: #0950bb;
+}
+.boton-add-cliente a {
+	font-size: 1.09vw;
+	text-decoration: none;
+	color: white;
+}
+
+.input-search input {
+	width: 19.56vw;
+	height: 1.87vw;
+	border-radius: 0.39vw;
+}
+
+.input-search img {
+	position: absolute;
+	left: 0;
+	top: 0.39vw;
+	width: 1.25vw;
+	height: 1.25vw;
+	margin-left: 0.78vw;
+	opacity: 0.4;
+}
+.input-search input[type='text'] {
+	padding-left: 2.34vw;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.25vw;
+	border: solid 0.078vw #8b8f96;
+	box-sizing: border-box;
+	outline: none;
+}
+.input-search {
+	position: relative;
+}
+.input-search input[type='text']:focus {
+	color: dodgerblue;
+	box-shadow: 0 0 0.234vw 0 dodgerblue;
+	color: black;
+}
+
+/* Fin estilos */

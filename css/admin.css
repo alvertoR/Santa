@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Inico estilos menú*/
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header img {
+	margin-left: 2rem;
+	width: 13rem;
+	height: 4.5rem;
+	cursor: pointer;
+}
+
+header > nav > ul {
+	display: flex;
+	align-items: center;
+	margin-right: 1.5rem;
+	list-style: none;
+}
+
+header > nav > ul > li {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	margin-left: 2rem;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1rem;
+	color: #0950bb;
+	cursor: pointer;
+}
+
+.submenu {
+	display: flex;
+	position: absolute;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 13.125rem;
+	height: 3rem;
+	background-color: #ffffff;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5rem;
+	text-align: right;
+	color: #0950bb;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	bottom: -3rem;
+	list-style: none;
+	margin-left: -1rem;
+	border: solid #3d8aff 1px;
+}
+.submenu a:visited {
+	color: #0950bb;
+}
+
+.submenu a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	width: 13.125rem;
+	height: 2.125rem;
+}
+
+.hide {
+	display: none;
+}
+
+header nav ul li .separador {
+	height: 2.5rem;
+	width: 2px;
+	background-color: rgba(9, 80, 187, 0.5);
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.desplegar {
+	font-family: 'Ubuntu', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	text-align: right;
+	color: #0950bb;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	width: 13.125rem;
+	height: 2.125rem;
+	margin-left: -1rem;
+}
+
+.desplegar .texto {
+	width: 90%;
+	text-align: justify;
+}
+
+.open {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-left: 0.5rem;
+	width: 30px;
+}
+.open img{
+	width: 30px;
+	height: 30px;
+}
+
+#ayuda {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	margin-top: -0.47vw;
+	display: none;
+}
+
+/*fin estilos menú*/
+
+/*Inicio estilos body*/
+.separador {
+	background-color: #0950bb;
+	height: 3.125rem;
+}
+.fondo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../recursos/landing/dogedit.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 90vh;
+}
+
+.botones {
+	width: 44rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.botones a {
+	position: relative;
+	border: none;
+	cursor: pointer;
+	background: #0950bb;
+	width: 12rem;
+	height: 12rem;
+	border-radius: 1rem;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.botones a:focus {
+	outline: none;
+}
+.botones a:hover {
+	background-color: #3d8aff;
+}
+.botones a img {
+	width: 8rem;
+	height: 8rem;
+	margin-top: 0.5rem;
+}
+.botones a {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 1.4rem;
+	color: white;
+	margin-top: 0px;
+}
+/*Fin estilos body*/
+
+/*Inicio estilos Footer*/
+
+footer {
+	background-color: #002c6d;
+	color: #ffffff;
+}
+
+.final {
+	height: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.final p {
+	font-family: 'Ubuntu', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+}
+
+/*Fin estilos Footer*/

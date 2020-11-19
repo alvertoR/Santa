@@ -1,0 +1,118 @@
+.logos-somos {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	z-index: 1;
+	margin-top: 18rem;
+}
+.logos-somos img {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+.navegador {
+	display: flex;
+	background-color: #0950bb;
+	height: 3.125rem;
+	justify-content: flex-end;
+	align-items: center;
+}
+.items {
+	margin-right: 12%;
+}
+.items nav ul {
+	display: flex;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+.items nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 1rem;
+	display: flex;
+	margin-left: 0.625rem;
+	margin-right: 0.625rem;
+	justify-content: center;
+}
+.items nav ul li {
+	display: flex;
+	list-style: none;
+	text-align: center;
+	height: 2.7rem;
+	align-items: center;
+}
+.items nav ul li:hover {
+	background-color: #002c6d;
+}
+
+/* Incio body */
+.fondo {
+	background-image: url(../recursos/landing/dogedit.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 90vh;
+	position: relative;
+}
+.top {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 3rem;
+}
+
+.top h1 {
+	position: relative;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	color: #0950bb;
+	font-size: 5rem;
+	width: 60%;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+
+.descrip {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	width: 60%;
+	margin: 0 auto;
+}
+.cards{
+	display: flex;
+	flex-direction: column;
+	margin-left: 1.5rem;
+}
+.descrip .card-info{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.descrip figure img{
+	width: 260px;
+	border-radius: 8px;
+}
+.descrip .card-info p {
+	position: relative;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	color: black;
+	font-size: 1.5rem;
+}
+
+.descrip .card-info h3 {
+	position: relative;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	color: #0950bb;
+	font-size: 2rem;
+	margin-left: 0%;
+	margin-top: 0px;
+	margin-bottom: 0.5rem;
+}
+
+/* Final body */
